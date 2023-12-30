@@ -15,6 +15,7 @@ export const styles = StyleSheet.create({
     paddingTop: 203,
     paddingBottom: 183,
     fontSize: 36,
+    fontFamily: "OpenSans-Regular-400",
   },
 
   buttonContainer: {

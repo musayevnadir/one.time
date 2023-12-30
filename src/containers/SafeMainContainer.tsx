@@ -5,6 +5,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { LinearGradient } from "expo-linear-gradient";
 import { styles } from "./styles";
 
+
 interface ISafeContainer {
   children: JSX.Element | JSX.Element[];
 }
