@@ -9,6 +9,5 @@ interface ISafeContainer {
 }
 export const SafeBottomContainer: React.FC<ISafeContainer> = ({ children }) => {
   const paddingBottom = useSafeAreaInsets().bottom;
-
   return <View style={[commonStyles.flex, { paddingBottom }]}>{children}</View>;
 };

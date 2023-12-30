@@ -3,21 +3,22 @@
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-  containerLogo: {
+  container: {
     paddingTop: 116,
-    paddingBottom: 203,
+    paddingBottom: 114,
     alignItems: "center",
   },
 
   text: {
     textAlign: "center",
     color: "#fff",
-    alignItems: "center",
+    paddingTop: 203,
     paddingBottom: 183,
     fontSize: 36,
   },
 
   buttonContainer: {
+    width: "100%",
     paddingHorizontal: 58,
   },
 });

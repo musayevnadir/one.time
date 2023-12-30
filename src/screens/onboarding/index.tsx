@@ -9,12 +9,12 @@ import LogoOnTime from "icons/on.time.big.svg";
 export const Onboarding: React.FC = () => {
   return (
     <SafeMainContainer>
-      <View style={[styles.containerLogo]}>
+      <View style={[styles.container]}>
         <LogoOnTime />
-      </View>
-      <Text style={styles.text}>Make yourself {"\n"} more on time</Text>
-      <View style={styles.buttonContainer}>
-        <ButtonStart text={"START"} />
+        <Text style={styles.text}>Make yourself {"\n"} more on time</Text>
+        <View style={styles.buttonContainer}>
+          <ButtonStart text={"START"} />
+        </View>
       </View>
     </SafeMainContainer>
   );
