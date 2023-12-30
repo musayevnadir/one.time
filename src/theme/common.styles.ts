@@ -5,7 +5,6 @@ import { StyleSheet, TextStyle, ViewStyle } from "react-native";
 export const commonStyles = StyleSheet.create({
   flex: {
     flex: 1,
-    backgroundColor: "#141927",
   } as ViewStyle | TextStyle,
   flexJustifyCenter: {
     flex: 1,
