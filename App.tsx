@@ -2,7 +2,7 @@
 import React from "react";
 import { StatusBar, Text, View } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import { styles } from "./src/configs/styles-config";
+import { styles } from "configs/styles-config";
 
 export default function App() {
   return (
