@@ -11,4 +11,9 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "red",
   },
+
+  activityIndicator: {
+    flex: 1,
+    justifyContent: "center",
+  },
 });
