@@ -8,4 +8,9 @@ export const styles = StyleSheet.create({
     paddingBottom: 40,
     paddingHorizontal: 32,
   },
+
+  segmentedControl: {
+    paddingHorizontal: 58,
+    paddingBottom: 28,
+  },
 });
