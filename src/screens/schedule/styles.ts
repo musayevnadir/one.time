@@ -13,4 +13,9 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 58,
     paddingBottom: 28,
   },
+
+  scheduleText: {
+    paddingLeft: 24,
+    paddingVertical: 32,
+  },
 });

@@ -1,6 +1,6 @@
 /** @format */
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, ScrollView } from "react-native";
 import { SafeMainContainer } from "containers/SafeMainContainer";
 import { styles } from "./styles";
 import { ButtonStart } from "components/button/button-start";
@@ -18,13 +18,15 @@ export const Onboarding: React.FC = () => {
 
   return (
     <SafeMainContainer>
-      <View style={[styles.container]}>
-        <LogoOnTime />
-        <Text style={styles.text}>Make yourself {"\n"} more on time</Text>
-        <View style={styles.buttonContainer}>
-          <ButtonStart onPress={pressButtonStart} text={"START"} />
+      <ScrollView>
+        <View style={[styles.container]}>
+          <LogoOnTime />
+          <Text style={styles.text}>Make yourself {"\n"} more on time</Text>
+          <View style={styles.buttonContainer}>
+            <ButtonStart onPress={pressButtonStart} text={"START"} />
+          </View>
         </View>
-      </View>
+      </ScrollView>
     </SafeMainContainer>
   );
 };
