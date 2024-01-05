@@ -15,7 +15,19 @@ export const styles = StyleSheet.create({
   },
 
   scheduleText: {
+    color: "#fff",
+    fontSize: 16,
+    fontFamily: "Nunito-Bold-700",
     paddingLeft: 24,
     paddingVertical: 32,
+  },
+  scheduleNoteContainer: {
+    paddingLeft: 46,
+    paddingRight: 24,
+  },
+
+  inputContainer: {
+    backgroundColor: "red",
+    paddingHorizontal: 24,
   },
 });

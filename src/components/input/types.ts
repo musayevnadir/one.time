@@ -1,5 +1,5 @@
 /** @format */
 
-export type IScheduleText = {
+export type IInput = {
   text?: string;
 };

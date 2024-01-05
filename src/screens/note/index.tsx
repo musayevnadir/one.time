@@ -1,12 +1,17 @@
 /** @format */
 import React from "react";
-import { View, Text } from "react-native";
+import { TouchableOpacity, View } from "react-native";
 import { styles } from "./style";
+import { Input } from "components/input";
+import { NoteItem } from "components/note-item";
 
 export const Note: React.FC = () => {
   return (
     <View style={styles.container}>
-      <Text>Note</Text>
+      <Input text={"Search Note"} />
+      <TouchableOpacity style={styles.noteItem}>
+        <NoteItem />
+      </TouchableOpacity>
     </View>
   );
 };
